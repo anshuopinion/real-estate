@@ -12,6 +12,17 @@ module.exports = {
         "2xl": "1.75rem ", // 28px
         "3xl": "2.25rem", // 36px
       },
+
+      colors: {
+        gray: {
+          dark: "#C4C4C4",
+          light: "#E5E5E5",
+        },
+        black: {
+          light: "#242527",
+          dark: "#2B2B2B",
+        },
+      },
     },
   },
   plugins: [],
