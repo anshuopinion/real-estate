@@ -3,6 +3,9 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
+      boxShadow: {
+        btn: "0px 10px 15px rgba(1, 115, 153, 0.2)",
+      },
       fontSize: {
         sm: "0.75rem", //"12px"
         base: ".875rem", // 14px
@@ -14,6 +17,10 @@ module.exports = {
       },
 
       colors: {
+        blue: {
+          dark: "#0A72AD",
+        },
+
         gray: {
           dark: "#C4C4C4",
           light: "#E5E5E5",
