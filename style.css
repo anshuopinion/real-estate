@@ -26,16 +26,16 @@
     @apply text-xl font-semibold text-black-light;
   }
   h2 {
-    @apply text-xl font-semibold text-black-dark;
+    @apply text-xl md:text-3xl lg:text-4xl font-semibold text-black-dark;
   }
 }
 
 @layer components {
   .text-gray {
-    @apply text-base text-gray-dark;
+    @apply text-base md:text-md  text-gray-dark;
   }
   .text-gray-2 {
-    @apply text-base text-gray-light;
+    @apply text-base md:text-md text-gray-light;
   }
   .blue-btn {
     @apply bg-blue-dark text-white shadow-btn;
